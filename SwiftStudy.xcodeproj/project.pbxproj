@@ -10,6 +10,11 @@
 		9BF364C91D61B76F008B290D /* RadarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364C81D61B76F008B290D /* RadarController.swift */; };
 		9BF364CB1D61B787008B290D /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364CA1D61B787008B290D /* RadarView.swift */; };
 		9BF364CE1D61C275008B290D /* radar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9BF364CD1D61C275008B290D /* radar.gif */; };
+		9BF364D01D61D53C008B290D /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364CF1D61D53C008B290D /* DetailController.swift */; };
+		9BF364D21D61D5CC008B290D /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364D11D61D5CC008B290D /* CustomCollectionViewCell.swift */; };
+		9BF364D61D61D9CA008B290D /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9BF364D51D61D9CA008B290D /* 0.jpg */; };
+		9BF364D81D61DBDF008B290D /* advance.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF364D71D61DBDF008B290D /* advance.png */; };
+		9BF364DA1D61DBE5008B290D /* basis.png in Resources */ = {isa = PBXBuildFile; fileRef = 9BF364D91D61DBE4008B290D /* basis.png */; };
 		9BF3CC851D619EFD007E791A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3CC841D619EFD007E791A /* AppDelegate.swift */; };
 		9BF3CC8A1D619EFD007E791A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF3CC881D619EFD007E791A /* Main.storyboard */; };
 		9BF3CC8C1D619EFD007E791A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF3CC8B1D619EFD007E791A /* Assets.xcassets */; };
@@ -52,6 +57,11 @@
 		9BF364C81D61B76F008B290D /* RadarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarController.swift; sourceTree = "<group>"; };
 		9BF364CA1D61B787008B290D /* RadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
 		9BF364CD1D61C275008B290D /* radar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = radar.gif; sourceTree = "<group>"; };
+		9BF364CF1D61D53C008B290D /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
+		9BF364D11D61D5CC008B290D /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		9BF364D51D61D9CA008B290D /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		9BF364D71D61DBDF008B290D /* advance.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = advance.png; sourceTree = "<group>"; };
+		9BF364D91D61DBE4008B290D /* basis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = basis.png; sourceTree = "<group>"; };
 		9BF3CC811D619EFD007E791A /* SwiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF3CC841D619EFD007E791A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BF3CC891D619EFD007E791A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -117,9 +127,19 @@
 		9BF364CC1D61C255008B290D /* EffectImage */ = {
 			isa = PBXGroup;
 			children = (
+				9BF364D91D61DBE4008B290D /* basis.png */,
+				9BF364D71D61DBDF008B290D /* advance.png */,
 				9BF364CD1D61C275008B290D /* radar.gif */,
 			);
 			path = EffectImage;
+			sourceTree = "<group>";
+		};
+		9BF364D41D61D9CA008B290D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BF364D51D61D9CA008B290D /* 0.jpg */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 		9BF3CC781D619EFD007E791A = {
@@ -152,6 +172,7 @@
 				9BF3CCB41D61A154007E791A /* Advance */,
 				9BF3CCB61D61A154007E791A /* Project */,
 				9BF3CCB71D61A1B4007E791A /* Summary */,
+				9BF364D41D61D9CA008B290D /* Resources */,
 				9BF364CC1D61C255008B290D /* EffectImage */,
 				9BF3CC881D619EFD007E791A /* Main.storyboard */,
 				9BF3CC8B1D619EFD007E791A /* Assets.xcassets */,
@@ -183,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				9BF3CCBC1D61A3A5007E791A /* AdvanceController.swift */,
+				9BF364CF1D61D53C008B290D /* DetailController.swift */,
+				9BF364D11D61D5CC008B290D /* CustomCollectionViewCell.swift */,
 			);
 			path = Advance;
 			sourceTree = "<group>";
@@ -325,6 +348,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BF3CC8F1D619EFD007E791A /* LaunchScreen.storyboard in Resources */,
+				9BF364D61D61D9CA008B290D /* 0.jpg in Resources */,
+				9BF364D81D61DBDF008B290D /* advance.png in Resources */,
+				9BF364DA1D61DBE5008B290D /* basis.png in Resources */,
 				9BF3CC8C1D619EFD007E791A /* Assets.xcassets in Resources */,
 				9BF3CC8A1D619EFD007E791A /* Main.storyboard in Resources */,
 				9BF364CE1D61C275008B290D /* radar.gif in Resources */,
@@ -353,11 +379,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BF3CCCA1D61AEFA007E791A /* CollectionTypesController.swift in Sources */,
+				9BF364D21D61D5CC008B290D /* CustomCollectionViewCell.swift in Sources */,
 				9BF3CCBD1D61A3A5007E791A /* AdvanceController.swift in Sources */,
 				9BF3CCB31D619F96007E791A /* RootViewController.swift in Sources */,
 				9BF3CCC11D61ACF4007E791A /* SummaryController.swift in Sources */,
 				9BF364C91D61B76F008B290D /* RadarController.swift in Sources */,
 				9BF3CCB91D61A34D007E791A /* SuperViewController.swift in Sources */,
+				9BF364D01D61D53C008B290D /* DetailController.swift in Sources */,
 				9BF3CCBB1D61A385007E791A /* BasisController.swift in Sources */,
 				9BF3CC851D619EFD007E791A /* AppDelegate.swift in Sources */,
 				9BF3CCBF1D61A3B8007E791A /* ProjectController.swift in Sources */,
@@ -512,6 +540,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deltalpha.SwiftStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -523,6 +552,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = SwiftStudy/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.deltalpha.SwiftStudy;
 				PRODUCT_NAME = "$(TARGET_NAME)";
