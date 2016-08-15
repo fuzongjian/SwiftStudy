@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9BF364C91D61B76F008B290D /* RadarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364C81D61B76F008B290D /* RadarController.swift */; };
 		9BF364CB1D61B787008B290D /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364CA1D61B787008B290D /* RadarView.swift */; };
+		9BF364CE1D61C275008B290D /* radar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9BF364CD1D61C275008B290D /* radar.gif */; };
 		9BF3CC851D619EFD007E791A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF3CC841D619EFD007E791A /* AppDelegate.swift */; };
 		9BF3CC8A1D619EFD007E791A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BF3CC881D619EFD007E791A /* Main.storyboard */; };
 		9BF3CC8C1D619EFD007E791A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BF3CC8B1D619EFD007E791A /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 /* Begin PBXFileReference section */
 		9BF364C81D61B76F008B290D /* RadarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarController.swift; sourceTree = "<group>"; };
 		9BF364CA1D61B787008B290D /* RadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
+		9BF364CD1D61C275008B290D /* radar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = radar.gif; sourceTree = "<group>"; };
 		9BF3CC811D619EFD007E791A /* SwiftStudy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9BF3CC841D619EFD007E791A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9BF3CC891D619EFD007E791A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -112,6 +114,14 @@
 			path = "仿支付宝雷达效果";
 			sourceTree = "<group>";
 		};
+		9BF364CC1D61C255008B290D /* EffectImage */ = {
+			isa = PBXGroup;
+			children = (
+				9BF364CD1D61C275008B290D /* radar.gif */,
+			);
+			path = EffectImage;
+			sourceTree = "<group>";
+		};
 		9BF3CC781D619EFD007E791A = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +152,7 @@
 				9BF3CCB41D61A154007E791A /* Advance */,
 				9BF3CCB61D61A154007E791A /* Project */,
 				9BF3CCB71D61A1B4007E791A /* Summary */,
+				9BF364CC1D61C255008B290D /* EffectImage */,
 				9BF3CC881D619EFD007E791A /* Main.storyboard */,
 				9BF3CC8B1D619EFD007E791A /* Assets.xcassets */,
 				9BF3CC8D1D619EFD007E791A /* LaunchScreen.storyboard */,
@@ -316,6 +327,7 @@
 				9BF3CC8F1D619EFD007E791A /* LaunchScreen.storyboard in Resources */,
 				9BF3CC8C1D619EFD007E791A /* Assets.xcassets in Resources */,
 				9BF3CC8A1D619EFD007E791A /* Main.storyboard in Resources */,
+				9BF364CE1D61C275008B290D /* radar.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
