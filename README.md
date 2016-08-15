@@ -31,7 +31,7 @@ Swift研究、学习、(重新)整理。
 #三、小扩展
 
     1、仿支付宝咻咻效果的实现
-    ![github](https://github.com/fuzongjian/SwiftStudy/blob/master/SwiftStudy/EffectImage/radar.gif "github")
+   <img src="/SwiftStudy/EffectImage/radar.gif" alt="alt text" title="Title" />
 
 
 
