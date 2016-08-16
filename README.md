@@ -33,7 +33,8 @@ Swift研究、学习、(重新)整理。
    <img src="/SwiftStudy/EffectImage/radar.gif" alt="alt text" title="Title" />
     
     2、blcok传值
-
+    
+    <img src="/SwiftStudy/EffectImage/advance.png" alt="alt text" title="Title" />
 
 
 #四、问题集锦  
