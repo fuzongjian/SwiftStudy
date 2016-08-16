@@ -26,7 +26,7 @@ Swift研究、学习、(重新)整理。
     
 
 
-    <img src="/SwiftStudy/EffectImage/radar.gif" alt="alt text" title="Title" />
+    <img src="/SwiftStudy/raw/master/EffectImage/radar.gif" alt="alt text" title="Title" />
 
 
 #三、小扩展
