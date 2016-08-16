@@ -36,7 +36,7 @@ Swift研究、学习、(重新)整理。
     
     2、blcok传值
     
-    <img src="/SwiftStudy/EffectImage/advance.png" alt="alt text" title="Title" />
+     ![image](https://github.com/fuzongjian/SwiftStudy/raw/master/EffectImage/advance.png)
 
 
 #四、问题集锦  
