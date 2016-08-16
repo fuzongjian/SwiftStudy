@@ -18,8 +18,8 @@ class ProjectController: SuperViewController,UITableViewDelegate,UITableViewData
         configProjectControllerUI()
     }
     func configProjectControllerUI(){
-        items = ["仿支付宝雷达效果"];
-        controllers = ["RadarController"];
+        items = ["仿支付宝雷达效果","Block传值"];
+        controllers = ["RadarController","BlockController"];
         tableView = UITableView.init(frame: self.view.bounds, style: .Plain)
         tableView?.delegate = self
         tableView?.dataSource = self
