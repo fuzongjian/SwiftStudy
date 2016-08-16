@@ -22,7 +22,7 @@ Swift研究、学习、(重新)整理。
      
     ![image](https://github.com/fuzongjian/SwiftStudy/EffectImage/advance.png)
     
-    ![image](https://github.com/fuzongjian/SwiftStudy/raw/master/EffectImage/radar.gif)
+  ![image](https://github.com/fuzongjian/SwiftStudy/raw/master/EffectImage/radar.gif)
     
 
 
