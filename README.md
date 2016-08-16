@@ -20,6 +20,8 @@ Swift研究、学习、(重新)整理。
     <img src="/SwiftStudy/EffectImage/advance.png" alt="alt text" title="Title" />
      
     ![image](https://github.com/fuzongjian/SwiftStudy/EffectImage/advance.png)
+    
+    ![github](http://github.com/fuzongjian/SwiftStudy/EffectImage/advance.png "github")
 
 
 
