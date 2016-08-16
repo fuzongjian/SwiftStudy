@@ -22,7 +22,9 @@ Swift研究、学习、(重新)整理。
      
     ![image](https://github.com/fuzongjian/SwiftStudy/EffectImage/advance.png)
     
-    ![github](https://github.com/fuzongjian/SwiftStudy/EffectImage/advance.png "github")
+    ![image](https://github.com/fuzongjian/SwiftStudy/raw/master/EffectImage/advance.png)
+    
+    
 
     <img src="/SwiftStudy/EffectImage/radar.gif" alt="alt text" title="Title" />
 
