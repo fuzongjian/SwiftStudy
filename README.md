@@ -21,7 +21,7 @@ Swift研究、学习、(重新)整理。
      
     ![image](https://github.com/fuzongjian/SwiftStudy/EffectImage/advance.png)
     
-    ![github](http://github.com/fuzongjian/SwiftStudy/EffectImage/advance.png "github")
+    ![github](https://github.com/fuzongjian/SwiftStudy/EffectImage/advance.png "github")
 
 
 
