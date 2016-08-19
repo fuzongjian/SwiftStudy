@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B8F957E1D66E097008C5024 /* Cat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F957B1D66E097008C5024 /* Cat.swift */; };
+		9B8F957F1D66E097008C5024 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F957C1D66E097008C5024 /* Person.swift */; };
+		9B8F95801D66E097008C5024 /* SetterGetterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F957D1D66E097008C5024 /* SetterGetterController.swift */; };
 		9BF364C91D61B76F008B290D /* RadarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364C81D61B76F008B290D /* RadarController.swift */; };
 		9BF364CB1D61B787008B290D /* RadarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364CA1D61B787008B290D /* RadarView.swift */; };
 		9BF364CE1D61C275008B290D /* radar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9BF364CD1D61C275008B290D /* radar.gif */; };
@@ -55,6 +58,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9B8F957B1D66E097008C5024 /* Cat.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cat.swift; sourceTree = "<group>"; };
+		9B8F957C1D66E097008C5024 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		9B8F957D1D66E097008C5024 /* SetterGetterController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetterGetterController.swift; sourceTree = "<group>"; };
 		9BF364C81D61B76F008B290D /* RadarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarController.swift; sourceTree = "<group>"; };
 		9BF364CA1D61B787008B290D /* RadarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadarView.swift; sourceTree = "<group>"; };
 		9BF364CD1D61C275008B290D /* radar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = radar.gif; sourceTree = "<group>"; };
@@ -117,6 +123,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9B8F957A1D66DFB7008C5024 /* setter、getter方法 */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F957B1D66E097008C5024 /* Cat.swift */,
+				9B8F957C1D66E097008C5024 /* Person.swift */,
+				9B8F957D1D66E097008C5024 /* SetterGetterController.swift */,
+			);
+			path = "setter、getter方法";
+			sourceTree = "<group>";
+		};
 		9BF364C71D61B71C008B290D /* 仿支付宝雷达效果 */ = {
 			isa = PBXGroup;
 			children = (
@@ -239,6 +255,7 @@
 			isa = PBXGroup;
 			children = (
 				9BF3CCBE1D61A3B8007E791A /* ProjectController.swift */,
+				9B8F957A1D66DFB7008C5024 /* setter、getter方法 */,
 				9BF364C71D61B71C008B290D /* 仿支付宝雷达效果 */,
 				9BF364DB1D6291B6008B290D /* Block传值 */,
 			);
@@ -392,14 +409,17 @@
 				9BF364D21D61D5CC008B290D /* CustomCollectionViewCell.swift in Sources */,
 				9BF3CCBD1D61A3A5007E791A /* AdvanceController.swift in Sources */,
 				9BF3CCB31D619F96007E791A /* RootViewController.swift in Sources */,
+				9B8F957F1D66E097008C5024 /* Person.swift in Sources */,
 				9BF3CCC11D61ACF4007E791A /* SummaryController.swift in Sources */,
 				9BF364C91D61B76F008B290D /* RadarController.swift in Sources */,
 				9BF364DF1D6291FC008B290D /* NextBlockController.swift in Sources */,
 				9BF3CCB91D61A34D007E791A /* SuperViewController.swift in Sources */,
+				9B8F957E1D66E097008C5024 /* Cat.swift in Sources */,
 				9BF364D01D61D53C008B290D /* DetailController.swift in Sources */,
 				9BF3CCBB1D61A385007E791A /* BasisController.swift in Sources */,
 				9BF3CC851D619EFD007E791A /* AppDelegate.swift in Sources */,
 				9BF3CCBF1D61A3B8007E791A /* ProjectController.swift in Sources */,
+				9B8F95801D66E097008C5024 /* SetterGetterController.swift in Sources */,
 				9BF3CCCF1D61AEFA007E791A /* StringCharactersController.swift in Sources */,
 				9BF3CCC91D61AEFA007E791A /* ClosuresController.swift in Sources */,
 				9BF3CCCD1D61AEFA007E791A /* FunctionController.swift in Sources */,
