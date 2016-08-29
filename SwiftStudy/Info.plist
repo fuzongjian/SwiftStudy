@@ -43,5 +43,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+	<key>skipButtonClicked</key>
+	<array>
+		<string>xinWei</string>
+	</array>
 </dict>
 </plist>

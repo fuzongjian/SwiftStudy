@@ -1,14 +1,15 @@
 //
-//  ProjectController.swift
+//  AnimationController.swift
 //  SwiftStudy
 //
-//  Created by 付宗建 on 16/8/15.
+//  Created by 付宗建 on 16/8/29.
 //  Copyright © 2016年 youran. All rights reserved.
 //
 
 import UIKit
 
-class ProjectController: SuperViewController,UITableViewDelegate,UITableViewDataSource{
+class AnimationController: SuperViewController,UITableViewDelegate,UITableViewDataSource{
+
     let cellID = "cell"
     var tableView : UITableView?
     var dataArray : NSArray?
@@ -18,11 +19,10 @@ class ProjectController: SuperViewController,UITableViewDelegate,UITableViewData
         configProjectControllerUI()
     }
     func configProjectControllerUI(){
-        dataArray = NSArray.init(contentsOfFile: NSBundle.mainBundle().pathForResource("project", ofType: "plist")!)
+        dataArray = NSArray.init(contentsOfFile: NSBundle.mainBundle().pathForResource("animation", ofType: "plist")!)
         tableView = UITableView.init(frame: self.view.bounds, style: .Plain)
         tableView?.delegate = self
         tableView?.dataSource = self
-        tableView?.rowHeight = 50
         tableView?.tableFooterView = UIView()
         self.view.addSubview(tableView!)
     }
