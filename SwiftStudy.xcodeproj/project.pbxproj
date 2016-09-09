@@ -35,6 +35,9 @@
 		9B8F970D1D73D555008C5024 /* project.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9B8F970C1D73D555008C5024 /* project.plist */; };
 		9B8F97101D73D96E008C5024 /* ChartsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F970F1D73D96E008C5024 /* ChartsController.swift */; };
 		9B8F97121D73D9D0008C5024 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F97111D73D9D0008C5024 /* ChartView.swift */; };
+		9B8F97601D826062008C5024 /* CollectionAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F975F1D826062008C5024 /* CollectionAnimationController.swift */; };
+		9B8F97621D82642E008C5024 /* CustomCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F97611D82642E008C5024 /* CustomCollectionCell.swift */; };
+		9B8F97641D826453008C5024 /* CustomFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B8F97631D826453008C5024 /* CustomFlowLayout.swift */; };
 		9BF364CE1D61C275008B290D /* radar.gif in Resources */ = {isa = PBXBuildFile; fileRef = 9BF364CD1D61C275008B290D /* radar.gif */; };
 		9BF364D01D61D53C008B290D /* DetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364CF1D61D53C008B290D /* DetailController.swift */; };
 		9BF364D21D61D5CC008B290D /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BF364D11D61D5CC008B290D /* CustomCollectionViewCell.swift */; };
@@ -108,6 +111,9 @@
 		9B8F970F1D73D96E008C5024 /* ChartsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartsController.swift; sourceTree = "<group>"; };
 		9B8F97111D73D9D0008C5024 /* ChartView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
 		9B8F97131D741FD7008C5024 /* 常见方法.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "常见方法.h"; sourceTree = "<group>"; };
+		9B8F975F1D826062008C5024 /* CollectionAnimationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionAnimationController.swift; sourceTree = "<group>"; };
+		9B8F97611D82642E008C5024 /* CustomCollectionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionCell.swift; sourceTree = "<group>"; };
+		9B8F97631D826453008C5024 /* CustomFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFlowLayout.swift; sourceTree = "<group>"; };
 		9BF364CD1D61C275008B290D /* radar.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = radar.gif; sourceTree = "<group>"; };
 		9BF364CF1D61D53C008B290D /* DetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailController.swift; sourceTree = "<group>"; };
 		9BF364D11D61D5CC008B290D /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -190,6 +196,7 @@
 				9B8F97061D73D43E008C5024 /* AnimationController.swift */,
 				9B8F96EB1D73D38F008C5024 /* TableView小动画 */,
 				9B8F96EF1D73D38F008C5024 /* 仿支付宝雷达效果 */,
+				9B8F975E1D826017008C5024 /* CollectionView动画 */,
 				9B8F970E1D73D942008C5024 /* 柱状图动画实现 */,
 			);
 			path = "动画集锦";
@@ -250,6 +257,16 @@
 				9B8F97111D73D9D0008C5024 /* ChartView.swift */,
 			);
 			path = "柱状图动画实现";
+			sourceTree = "<group>";
+		};
+		9B8F975E1D826017008C5024 /* CollectionView动画 */ = {
+			isa = PBXGroup;
+			children = (
+				9B8F975F1D826062008C5024 /* CollectionAnimationController.swift */,
+				9B8F97611D82642E008C5024 /* CustomCollectionCell.swift */,
+				9B8F97631D826453008C5024 /* CustomFlowLayout.swift */,
+			);
+			path = "CollectionView动画";
 			sourceTree = "<group>";
 		};
 		9BF364CC1D61C255008B290D /* EffectImage */ = {
@@ -537,6 +554,7 @@
 				9B8F97041D73D3B4008C5024 /* Person.swift in Sources */,
 				9BF3CCCA1D61AEFA007E791A /* CollectionTypesController.swift in Sources */,
 				9BF364D21D61D5CC008B290D /* CustomCollectionViewCell.swift in Sources */,
+				9B8F97641D826453008C5024 /* CustomFlowLayout.swift in Sources */,
 				9B8F97021D73D3B4008C5024 /* NextBlockController.swift in Sources */,
 				9BF3CCBD1D61A3A5007E791A /* AdvanceController.swift in Sources */,
 				9BF3CCB31D619F96007E791A /* RootViewController.swift in Sources */,
@@ -545,6 +563,7 @@
 				9BF3CCC11D61ACF4007E791A /* SummaryController.swift in Sources */,
 				9BF3CCB91D61A34D007E791A /* SuperViewController.swift in Sources */,
 				9B8F97091D73D47F008C5024 /* CommonController.swift in Sources */,
+				9B8F97601D826062008C5024 /* CollectionAnimationController.swift in Sources */,
 				9B8F97031D73D3B4008C5024 /* Cat.swift in Sources */,
 				9BF364D01D61D53C008B290D /* DetailController.swift in Sources */,
 				9BF3CCBB1D61A385007E791A /* BasisController.swift in Sources */,
@@ -560,6 +579,7 @@
 				9B8F97011D73D3B4008C5024 /* BlockController.swift in Sources */,
 				9B8F96F51D73D38F008C5024 /* RadarController.swift in Sources */,
 				9BF3CCCD1D61AEFA007E791A /* FunctionController.swift in Sources */,
+				9B8F97621D82642E008C5024 /* CustomCollectionCell.swift in Sources */,
 				9BF3CCCC1D61AEFA007E791A /* FoundationViewController.swift in Sources */,
 				9BF3CCCB1D61AEFA007E791A /* ControlFlowController.swift in Sources */,
 				9BF3CCCE1D61AEFA007E791A /* RangeViewController.swift in Sources */,

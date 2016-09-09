@@ -20,5 +20,11 @@
 		<key>title</key>
 		<string>柱状图动画实现</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>CollectionAnimationController</string>
+		<key>title</key>
+		<string>CollectionView动画</string>
+	</dict>
 </array>
 </plist>
